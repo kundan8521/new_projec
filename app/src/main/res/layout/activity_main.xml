@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/apb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:menu="@menu/list"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Whatspp"
+            />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/baseline_photo_camera_24" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/baseline_search_24"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="250dp"
+        />
+
+
+
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo2"
+        android:layout_below="@+id/apb"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/nm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sonu Yadav"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/imgg"
+
+        />
+    <TextView
+        android:id="@+id/abt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="join whatsapp!"
+        android:layout_below="@+id/nm2"
+        android:layout_marginLeft="120dp"
+        android:textSize="10dp"
+
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgg3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo2"
+        android:layout_below="@+id/abt2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/nm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="170dp"
+        android:layout_toRightOf="@+id/imgg3"
+        android:text="Sonu Yadav"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/abt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="join whatsapp!"
+        android:layout_below="@+id/nm3"
+        android:layout_marginLeft="120dp"
+        android:textSize="10dp"
+
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgg4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo2"
+        android:layout_below="@+id/abt3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/nm4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="240dp"
+        android:layout_toRightOf="@+id/imgg4"
+        android:text="Sonu Yadav"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/abt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="join whatsapp!"
+        android:layout_below="@+id/nm4"
+        android:layout_marginLeft="120dp"
+        android:textSize="10dp"
+
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgg5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo2"
+        android:layout_below="@+id/abt4"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/nm5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="310dp"
+        android:layout_toRightOf="@+id/imgg5"
+        android:text="Sonu Yadav"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/abt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="join whatsapp!"
+        android:layout_below="@+id/nm5"
+        android:layout_marginLeft="120dp"
+        android:textSize="10dp"
+
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgg7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo2"
+        android:layout_below="@+id/abt5"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/nm6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="380dp"
+        android:layout_toRightOf="@+id/imgg7"
+        android:text="Sonu Yadav"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/abt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="join whatsapp!"
+        android:layout_below="@+id/nm6"
+        android:layout_marginLeft="120dp"
+        android:textSize="10dp"
+
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgg8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo2"
+        android:layout_below="@+id/abt6"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/nm7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="450dp"
+        android:layout_toRightOf="@+id/imgg8"
+        android:text="Sonu Yadav"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/abt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="join whatsapp!"
+        android:layout_below="@+id/nm7"
+        android:layout_marginLeft="120dp"
+        android:textSize="10dp"
+
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgg9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo2"
+        android:layout_below="@+id/abt7"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/nm8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="520dp"
+        android:layout_toRightOf="@+id/imgg9"
+        android:text="Sonu Yadav"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/abt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="join whatsapp!"
+        android:layout_below="@+id/nm8"
+        android:layout_marginLeft="120dp"
+        android:textSize="10dp"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>
